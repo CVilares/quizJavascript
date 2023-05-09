@@ -1,36 +1,44 @@
-
-  #title {
-    font-size: 24px;
-    color: #f0089b;
-  }
-  
-  .alternative {
-    display: flex;
-    margin-bottom: 0.5rem;
+#wrapper {
+    margin-top: 40px;
     width: 100%;
-    font-size: 1.8rem;
-    border: 0.1rem solid rgba(86, 165, 235, 0.25);
-    background-color: white;
-  }
-  
-  .alternative:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem rgba(3, 190, 63, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
-  }
-  
-  #score {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper div, #wrapper ul {
+    width: 50%;
+    max-width: 300px;
+}
+
+
+ul {
+    padding: 0px;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 10px;
+    position: fixed;
+    top: 50px; /* Adjust the margin from the top as needed */
+    left: 50%;
+    transform: translateX(-50%);
   }
   
-  .score-title {
+  
+
+  .alternative {
+    list-style-type: none;
+    margin-bottom: 4px;
+    padding: 10px;
+    background: #ffffff;
+    margin-top: 20px; /* Adjust the margin from the title as needed */
     text-align: center;
-    font-size: 2rem;
   }
-  
-  .points {
-    text-align: center;
-  }
-  
+
+.alternative:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
