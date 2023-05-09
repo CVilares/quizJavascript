@@ -1,39 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Congrats!</title>
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="assets/css/game.css">
-    <link rel="stylesheet" href="assets/css/quotes.css">
-  </head>
-  <body>
-    <div class="container">
-      <div id="end" class="flex-center flex-column">
-        <h1 id="finalScore">0</h1>
-        <form>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="username"
-          />
-          <button
-            type="submit"
-            class="btn"
-            id="saveScoreBtn"
-            onclick="saveHighScore(event)"
-            disabled
-          >
-            Save
-          </button>
-        </form>
-        <a class="btn" href="/game.html">Play Again</a>
-        <a class="btn" href="/">Go Home</a>
-      </div>
-    </div>
-    <script src="end.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/game.css">
+  <link rel="stylesheet" href="assets/css/quotes.css">
+  <title>Disappointment</title>
+</head>
+<body>
+  <h1>Disappointment</h1>
+  <p>You have given 3 wrong answers. Better luck next time!</p>
+  <button onclick="tryAgain()">Try Again</button>
+
+  <script>
+    function tryAgain() {
+      // Redirect the user back to the quiz start page
+      window.location.href = 'index.html';
+    }
+    
+  </script>
+</body>
 </html>

@@ -1,6 +1,7 @@
-import { quotes } from './quotes.js' ;
+import { quotes } from './quotes.js';
 
-let questions = [{
+let questions = [
+  {
     title: 'Who is the president of Sporting Clube de Portugal?',
     alternatives: ['Frederico Varandas', 'Bruno de Carvalho', 'Pedro Proença', 'Jorge Jesus'],
     correct: 0
@@ -34,6 +35,7 @@ let questions = [{
 
 let app = {
   totalScore: 0,
+  wrongAnswers: 0,
   currentPos: 0,
 
   start: function () {
@@ -70,7 +72,11 @@ let app = {
       this.totalScore++;
     } else {
       console.log('Wrong answer');
-      this.resetScore();
+      this.wrongAnswers++;
+      if (this.wrongAnswers === 3) {
+        this.showDisappointment();
+        return; // Stop further execution
+      }
     }
     this.updateScore();
     this.nextQuestion();
@@ -88,6 +94,12 @@ let app = {
     window.location.href = 'congratulations.html';
   },
 
+  showDisappointment: function () {
+    // Redirect to the disappointment page
+    window.location.href = 'end.html';
+  },
+  
+  
   updateScore: function () {
     let scoreDiv = document.getElementById('score');
     scoreDiv.textContent = `Your score is: ${this.totalScore}`;
