@@ -76,6 +76,16 @@ let app = {
     this.nextQuestion();
     this.showQuestion(questions[this.currentPos]);
     this.randomQuotes();
+
+    // Check if the total score reaches 5
+    if (this.totalScore === 5) {
+      this.showCongratulations();
+    }
+  },
+
+  showCongratulations: function () {
+    // Redirect to the congratulations page
+    window.location.href = 'congratulations.html';
   },
 
   updateScore: function () {
@@ -93,7 +103,6 @@ let app = {
     this.totalScore = 0;
     this.updateScore();
   }
-
 };
 
 app.start();
