@@ -1,22 +1,36 @@
-#title {
-    
+
+  #title {
     font-size: 24px;
     color: #f0089b;
   }
-
-
-.alternative {
+  
+  .alternative {
     display: flex;
     margin-bottom: 0.5rem;
     width: 100%;
     font-size: 1.8rem;
-    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
     background-color: white;
   }
   
   .alternative:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(3, 190, 63, 0.5);
+    box-shadow: 0 0.4rem 1.4rem rgba(3, 190, 63, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
+  
+  #score {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .score-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .points {
+    text-align: center;
+  }
+  
