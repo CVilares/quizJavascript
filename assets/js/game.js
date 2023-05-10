@@ -45,10 +45,13 @@ startQuiz();
 function startQuiz() {
   // Display the first question
   displayQuestion(questions[currentPos]);//
-}
+
 // search all pages for the alternatives
 let alternatives = document.querySelectorAll('.alternative');
 //grab all the alternatives and when we click on the alternative we call the function answer selection to do somethign,not defined yet
 alternatives.forEach(function (element) {
   element.addEventListener('click', handleAnswerSelection);
 });
+
+displayRandomQuote();// function that displays a random quote regarding main theme of the quizz it will be randomly and finished later
+}
