@@ -34,24 +34,21 @@ let questions = [
     correct: 0
   }
 ];
-// Initialize the quiz application, all variables set to 0 and they will update during the quiz
-let totalScore = 0;
-let wrongAnswers = 0;
-let currentPos = 0; 
+// this are the variables starting in 0 because user has not answered any question
 
-// Start the quiz
+ let totalScore = 0;
+ let wrongAnswers = 0;
+ let currentPos = 0;
+
+// Start the Quiz
 startQuiz();
 
+// Function to Start the Quiz 
 function startQuiz() {
-  // Display the first question
-  displayQuestion(questions[currentPos]);//
-
-// search all pages for the alternatives
-let alternatives = document.querySelectorAll('.alternative');
-//grab all the alternatives and when we click on the alternative we call the function answer selection to do somethign,not defined yet
-alternatives.forEach(function (element) {
-  element.addEventListener('click', handleAnswerSelection);
-});
-
-displayRandomQuote();// function that displays a random quote regarding main theme of the quizz it will be randomly and finished later
+  displayQuestion(questions[currentPos]);// this line display a question from the array question in position of the currentPos
+  setupAnswerListeners();
+  displayRandomQuote();// this will display a random quote like a fun fact, it will be fixed later
 }
+
+
+
