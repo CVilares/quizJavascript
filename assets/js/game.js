@@ -34,5 +34,7 @@ let questions = [
     correct: 0
   }
 ];
-
-
+// Initialize the quiz application
+let totalScore = 0;
+let wrongAnswers = 0;
+let currentPos = 0; 
