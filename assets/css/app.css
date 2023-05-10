@@ -1,5 +1,7 @@
 :root {
-  background-color: #ecf5ff;
+  background-image: url('https://i0.wp.com/fairplay.pt/wp-content/uploads/2023/03/festejos-arsenal-sporting-fatawu-tanlongo-mateus-arthur-sotiris-nuno-santos-chermiti.jpg?fit=1200%2C675&ssl=1');
+  background-repeat: no-repeat;
+  background-size: cover;  
   font-size: 62.5%;
 }
 
@@ -20,7 +22,7 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #56a5eb;
+  color: #c5ef47;
   margin-bottom: 5rem;
 }
 
