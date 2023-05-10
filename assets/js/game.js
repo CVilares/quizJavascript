@@ -5,32 +5,32 @@ import { quotes } from './quotes.js';
 let questions = [
   {
     title: 'Who is the president of Sporting Clube de Portugal?',
-    alternatives: ['Frederico Varandas', 'Bruno de Carvalho', 'Pedro Proença', 'Jorge Jesus'],//array of possible answers
+    answer: ['Frederico Varandas', 'Bruno de Carvalho', 'Pedro Proença', 'Jorge Jesus'],//array of possible answers
     correct: 0 //index of the correct answer
   },
   {
     title: 'How many times has Sporting Clube de Portugal won the UEFA Champions League?',
-    alternatives: ['1', '2', '3', 'Never won'],
+    answer: ['1', '2', '3', 'Never won'],
     correct: 3
   },
   {
     title: 'Which stadium is used by Sporting Clube de Portugal?',
-    alternatives: ['Estádio da Luz', 'Estádio José Alvalade', 'Estádio do Dragão', 'Estádio Municipal de Braga'],
+    answer: ['Estádio da Luz', 'Estádio José Alvalade', 'Estádio do Dragão', 'Estádio Municipal de Braga'],
     correct: 1
   },
   {
     title: 'What year was Sporting Clube de Portugal founded?',
-    alternatives: ['1906', '1910', '1922', '1945'],
+    answer: ['1906', '1910', '1922', '1945'],
     correct: 0
   },
   {
     title: 'Who is the all-time leading goal scorer for Sporting Clube de Portugal?',
-    alternatives: ['Cristiano Ronaldo', 'Fernando Peyroteo', 'Luís Figo', 'Ricardo Quaresma'],
+    answer: ['Cristiano Ronaldo', 'Fernando Peyroteo', 'Luís Figo', 'Ricardo Quaresma'],
     correct: 1
   },
   {
     title: 'Which team is considered the main rival of Sporting Clube de Portugal?',
-    alternatives: ['SL Benfica', 'FC Porto', 'SC Braga', 'Vitória de Guimarães'],
+    answer: ['SL Benfica', 'FC Porto', 'SC Braga', 'Vitória de Guimarães'],
     correct: 0
   }
 ];
@@ -50,5 +50,21 @@ function startQuiz() {
   displayRandomQuote();// this will display a random quote like a fun fact, it will be fixed later
 }
 
+// Function to Display a Question
+function displayQuestion(question) {
+// in this function we grab the element with id title and give it to the var titleDiv 
+  let titleDiv = document.getElementById('title');
+//in this line we give the titleDiv var a name from the array questions and title, this is the question
+  titleDiv.textContent = question.title;
+//this line we select all elements with classes answer, 4 in this case
+  let alternatives = document.querySelectorAll('.answer');
+  //since we have 4 elements inside a var we use the index
+  // to assign each answer a position 0 till 3 in loop and we call a function
+  //with an element (answer) and his position
+  alternatives.forEach(function (element, index) {
+    //that gets a text content. the first element gets a text content of the array and answer
+    element.textContent = question.answer[index];
+  });
+}
 
 
