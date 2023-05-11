@@ -10,13 +10,23 @@
   <link rel="stylesheet" href="assets/css/congratulations.css">
 </head>
 <body>
-  <h1>Rules</h1>
-  <p>The quiz consists of a set of questions related to Sporting Portugal.</p>
+  <h1>Game Rules:</h1>
+  <ul id="game-rules">
+    <li>The quiz consists of a series of questions.</li>
+    <li>Each correct answer earns the player 1 point.</li>
+    <li>Incorrect answers do not earn any points.</li>
+    <li>The number of incorrect answers is not revealed to create suspense.</li>
+    <li>If the player accumulates 3 incorrect answers, they lose the game.</li>
+    <li>The primary objective is to answer 5 questions correctly.</li>
+    
+  </ul>
+  
+
   <button onclick="tryAgain()">Play</button>
 
   <script>
     function tryAgain() {
-      // Redirect the user back to the quiz start page
+      // Redirect the user back to the quiz game page
       window.location.href = 'game.html';
     }
     

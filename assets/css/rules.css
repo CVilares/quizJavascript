@@ -1,0 +1,12 @@
+#game-rules {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+  }
+  
+  #game-rules li {
+    margin-bottom: 10px;
+  }
+  
