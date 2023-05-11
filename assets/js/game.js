@@ -134,7 +134,7 @@ function setupAnswerListeners() {
   function updateScore() {
     let scoreDiv = document.getElementById('score');
     //this line gives the var scoreDiv the text content bellow indicated
-    scoreDiv.textContent = 'Your score is: ' + totalScore;
+    scoreDiv.textContent = 'Score:' + totalScore;
   }
  // Function to Display a Random Quote
   function displayRandomQuote() {

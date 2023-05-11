@@ -62,11 +62,7 @@ Success and Failure Pages: The quiz incorporates separate pages for success (con
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-
-
 -   [Google Fonts:](https://fonts.google.com/) was used to import the font into the style.css file which are used on the pages of the project.
--   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
@@ -162,9 +158,9 @@ LIGHTHOUSE TESTING
 
 - - -
 
-### Color Scheme ip
+### Color Scheme 
 
-
+- The color schemes used were mainly green and white with some yellow splash, those colors are the main color of the footbal club, the main theme of this quiz.
 - - -
 ### Deployment ip
 
