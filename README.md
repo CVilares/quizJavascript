@@ -1,8 +1,8 @@
 # quizJavascript
 
-
-This website was created for the love of Sporting Portugal, a sports club in portugal. With this page we intend to create a daily meeting point for the fans of this club and as a future goal to be a space where you can find daily news,pre, mid and end seasons analyzes,players analyzes with invited guests, a space where our visitors can check the list of trophies in different modalities and a forum to share opinions. So far we offer an updated list of the next games, all official social channels, a hall of fame, that will be our future virtual museum and a "join us" segment, where you can join our team building a free, non profit and passionate source of information about our sports club. 
-
+Welcome to the Sporting Clube de Portugal Quiz! This quiz will test your knowledge about one of the most beloved sports clubs in Portugal. Get ready to dive into the rich history, achievements, and iconic moments of Sporting Clube de Portugal.
+Are you a die-hard fan who knows everything about the club, or are you just starting to explore the world of Sporting Portugal? No matter your level of expertise, this quiz is designed to challenge and entertain you.
+You will be presented with a series of questions covering various aspects of Sporting Clube de Portugal, including its presidents, historic achievements, iconic players, and fierce rivalries. Each question will have multiple-choice options, and it's up to you to select the correct answer.
 ![responsive image](/assets/images/responsive.png)
 
 
