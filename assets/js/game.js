@@ -79,4 +79,76 @@ function setupAnswerListeners() {
       checkAnswer(index);
     });
   });
-}
+
+   }
+  function checkAnswer(userAnswer) {
+    let currentQuestion = questions[currentPos];
+    //this condition checks if the correct alternative is the same choosen by the user, if yes the answer is correct
+    if (currentQuestion.correct === userAnswer) {
+      //this display the message in the console
+      console.log('Correct answer');
+      //this adds 1 to the var total score ++=+1
+      totalScore++;
+      //if the alternative is wrong this block will be executed
+    } else {
+      //this display the message in the console
+      console.log('Wrong answer');
+      //this adds 1 to the var wrong answer ++=+1
+      wrongAnswers++;
+      //this condition checks if user gives 3 wrong answers, if yes the bellow function will be called
+      if (wrongAnswers === 3) {
+        //this function will be called in the event of 3 wrong answers user will be redirect the user to the "end.html" page
+        showDisappointment();
+        return; // Stop further execution to prevent the next question from being displayed after showing the disappointment page
+      }
+    }
+    updateScore();
+    nextQuestion();
+    displayQuestion(questions[currentPos]);
+    displayRandomQuote();
+    checkTotalScore();
+  }
+  
+  
+  // Function to Move to the Next Question
+  function nextQuestion() {
+    currentPos++;
+    if (currentPos === questions.length) {
+      currentPos = 0;
+    }
+  }
+  
+  // Function to Check if the Total Score Reaches 5
+  function checkTotalScore() {
+    if (totalScore === 5) {
+      showCongratulations();
+    }
+  }
+  
+  // Function to Update the Score Display 
+  function updateScore() {
+    let scoreDiv = document.getElementById('score');
+    scoreDiv.textContent = 'Your score is: ' + totalScore;
+  }
+ // Function to Display a Random Quote
+  function displayRandomQuote() {
+    let randomSelection = Math.floor(Math.random() * quotes.length);
+    document.getElementById('quote').textContent = quotes[randomSelection].quote;
+    document.getElementById('author').textContent = quotes[randomSelection].character;
+  }  
+  
+  // Function to Show Congratulations Page
+  function showCongratulations() {
+    // Redirect to the congratulations page
+    window.location.href = 'congratulations.html';
+  }
+
+  // Function to Show Disappointment Page
+  function showDisappointment() {
+    // Redirect to the disappointment page
+    window.location.href = 'end.html';
+  }
+  
+    
+  
+
