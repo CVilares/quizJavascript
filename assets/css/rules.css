@@ -1,12 +1,18 @@
-#game-rules {
-    list-style-type: disc;
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 18px;
+body{
+    background-color:rgb(155, 63, 63);
   }
   
-  #game-rules li {
-    margin-bottom: 10px;
-  }
+  h1 {
+      color: pink;
+    }
+    
+    #game-rules {
+      color: yellow;
+      font-size: 50px; /* Adjust the font size as needed */
+    }
+    
+    button{
+      color:#E91E63
+    }
+  
   
