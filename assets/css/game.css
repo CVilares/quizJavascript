@@ -1,3 +1,4 @@
+
 #wrapper {
     margin-top: 40px;
     width: 100%;
@@ -18,16 +19,16 @@ ul {
 
 #title {
     
-    
-     font-size: 3.5rem;
-      color: #fff200db;
+     margin-top:1.5rem;
+      font-size: 2.5rem;
+      color: whitesmoke;
       margin-bottom: 1rem;
       display: flex;
       align-items: center;
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
-      
+      font-family:roboto;
       
   }
   
@@ -38,23 +39,33 @@ ul {
     list-style-type: none;
     margin-bottom: 4px;
     padding: 10px;
-    background: #229929f2;
+    background: #076b1cb0;
     margin-top: 20px; 
     text-align: center;
     border-radius: 9rem;
     color:white;
+    font-family:roboto;
+    
   }
 
 .alternative:hover {
     cursor: pointer;
     opacity: 0.8;
+    background-color:black;
 }
 
-.points{
-    color:#E91E63;
+.points {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size:2.4rem;
+  font-family:roboto;
   }
-  .scoretitle{
-    color:azure;
-  }
+  
     
   

@@ -139,7 +139,8 @@ The showDisappointment function redirects the user to the "end.html" page when t
 
 ### Validator Testing ip
 HTML
-All HTML tested separeted,no errors were returned when passing through the official W3C validator.
+
+- All HTML tested separeted,no errors were returned when passing through the official W3C validator.
 
 ![HTML Page](/assets/images/htlmvalidation.png)
   
@@ -155,7 +156,8 @@ LIGHTHOUSE TESTING
   * Lighthouse 
 ![Lighthouse Page](/assets/images/lhcheck.png)
 
-* Javascript
+Javascript
+- No errors were returned when passing through the JSHint validator.
 ![JavaScript Page](/assets/images/javas.png)
 - - -
 

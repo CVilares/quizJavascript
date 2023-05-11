@@ -22,7 +22,7 @@
   
   h1 {
     font-size: 5.4rem;
-    color: #fff200db;
+    color: white;
     margin-bottom: 5rem;
   }
   
@@ -82,21 +82,25 @@
   }
   
   .btn {
-    font-size: 1.8rem;
-    padding: 1rem;
-    width: 20rem;
-    text-align: center;
-    border: 0.1rem solid #e6eb56;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    color: #ebd956;
-    background-color: #ffffff17;
+    
+        font-size: 1.9rem;
+        padding: 1rem;
+        width: 20rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color:white;
+        background-color: #076b1cb0;
+        font-family:roboto;
+        border-radius: 9rem;
+        
   }
   
   .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 #a2c456d1;
+    box-shadow: 0 0.4rem 1.4rem 0 black;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
+  
   
