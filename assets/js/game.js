@@ -47,7 +47,7 @@ startQuiz();
 function startQuiz() {
   displayQuestion(questions[currentPos]);// this line display a question from the array question in position of the currentPos
   setupAnswerListeners();
-  displayRandomQuote();// this will display a random quote like a fun fact, it will be fixed later
+  displayRandomQuote();// this will display a random quote like a fun fact, it will be explained at the bottom
 }
 
 // Function to Display a Question
