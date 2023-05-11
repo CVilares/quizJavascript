@@ -15,8 +15,8 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 # Contents
 * [Technologies Used](#technologies-used)
 * [User Experience](#user-experience-ux)
-* [Features](#features)
-* [Future Implementations](#future-implementations) 
+* [Main functionalities of the quiz](#main-functionalities-of-the-quiz)
+* [Potential Implementations](#potential-implementations) 
 * [Browser Compability](#Browser-Compatibility)  
 * [Validator Testing](#validator-testing)
 * [Solved Bugs](#solved-bugs)
@@ -30,7 +30,7 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 ##  Technologies Used
 
 
-
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
@@ -44,81 +44,87 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 - [W3Schools:](https://www.w3schools.com/) To learn , test and train.
 
 - - - 
- ## User Experience (UX)
+ ### User Experience UX
 
 ### First Time Visitor Goals
 
 
-- As a First Time Visitor, I want to easily understand that the web page share the same passion about the content as me.
-- The overall goal of the website should be to load fast, look simple, offer value, and be easy to navigate.
-- As a First Time Visitor, I want to be able to easily understand by reading the "about us" what's the aim of the page.
-- As a First Time Visitor, I want to be able to easily understand that i can be part of the team.
+- The goal for first-time visitors is to have fun and enjoy the overall quiz experience.
+- Test knowledge and learn.
+- Experience feedback and results: First-time visitors want to receive immediate feedback on their answers. Whether they answer correctly or incorrectly, they expect to see feedback that informs them about their performance. They may also look forward to seeing their final score and any additional insights or comments provided at the end of the quiz.
+- Understand the Quiz Concept: As a first-time visitor to the quiz, the goal is to understand the concept and purpose of the quiz. Visitors should quickly grasp that it is a trivia-style game where they will be tested on their knowledge about a specific topic or theme.
 
  ### Returning Visitor Goals
 
-- As a Returning Visitor, I want to be able to access and view the future content such as game analyses, new players, news about the club and leave my opinion.
-- As a Returning Visitor, I want to be able to check next games quickly and easily.
-- As a Returning Visitor, I want to be able to contact the organisation to give feedback or ask questions.
+- As a fan of Sporting Portugal, I want to play the quiz to test my knowledge about the club, its players, and its history.
 
-### Frequent User Goals
-- As a frequent user the aim is to use this website as a meeting point for supporters and fans and a place that we can use all day long because its always an updated source of information. As an example , like instagram, we go there, we check for something new and then comeback later for updates.
+- As a fan of Sporting Portugal, I want to know the author or speaker of each random quote displayed in the quiz, to increase my knowledge about the club and its iconic figures.
+
+- As a new player, I want to understand the rules of the Sporting Portugal quiz, so I can familiarize myself with how the game works and participate confidently.
+
+- As a player, I want to receive immediate feedback on whether my answer is correct or incorrect, to validate my knowledge and learn from any mistakes.
+
+
+### what we offer
+
+Navigation: The user can navigate through the quiz using the provided options and buttons. They can progress to the next question, submit their answers, and receive feedback on their performance.
+
+Question Display: The quiz displays questions one at a time, allowing the user to focus on each question individually. This approach helps prevent overwhelming the user with too much information at once.
+
+Answer Selection: The user can select their answer from the provided options. This allows for easy interaction and ensures that the user understands the available choices.
+
+Immediate Feedback: After the user selects an answer, the quiz provides immediate feedback. 
+
+Scoring and Progress Tracking: The quiz keeps track of the user's score. The user can see their current score, allowing them to track their progress throughout the quiz.
+
+Random Quotes: The inclusion of random quotes adds an extra element of interest and variety to the quiz. It provides an opportunity to engage the user with quotes related to the quiz's theme.
+
+Success and Failure Pages: The quiz incorporates separate pages for success (congratulations) and failure (disappointment) scenarios. If the user achieves a high score, they are redirected to the success page, acknowledging their achievement. Conversely, if the user fails to answer correctly within the given attempts, they are redirected to the failure page, providing closure to their quiz experience.
 
 - - - 
 
 
-## Features
+### Main functionalities of the quiz
 
-The website is comprised of 3 pages, the index/home page, the gallery/Hall of fame, and the Sign up/Join us page.
+- Displaying Questions:
 
-Each page has a Logo, a navigation bar and a footer.
+The displayQuestion function retrieves the current question from the questions array and displays it on the screen.
 
+- Handling User Answers:
 
-### **Index page**
+The checkAnswer function is called when the user selects an answer. It compares the user's answer with the correct answer for the current question and updates the score accordingly.
+If the user's answer is correct, the score is incremented, and a message is logged to the console.
+If the user's answer is wrong, the wrong answer count is incremented. If the count reaches 3, the showDisappointment function is called to redirect the user to the "end.html" page.
+The score display is updated using the updateScore function.
 
-This is an HTML code for a web page promoting Sporting Portugal, a football club from Lisbon, Portugal. The code includes the basic structure of an HTML document, including the head section with meta information, a link to a CSS file for styling, and a title element for the page title.
+- Moving to the Next Question:
 
-The body section contains a header with a logo and a navigation bar with links to other pages on the website. There is also a hero image section with a background image that covers the full width of the screen and animates a zoom effect on loading the page. The cover text on the hero image has a semi-transparent background and positioned on the bottom right side of the image with sa fun fact, and some text about the goal of the page with a sign up button linked to the Join us page , followed by a section with information about upcoming matches. The page ends with a footer that includes links to the club's social media pages.
+The nextQuestion function increments the currentPos variable to move to the next question. If the end of the questions array is reached, it wraps around to the first question.
 
-The code also includes a script tag for the Font Awesome icon library, which is used to display icons for the social media links in the footer.
+- Checking Total Score:
 
-![Index Logo and nav bar](/assets/images/navigationbar.png)
+The checkTotalScore function checks if the user's total score reaches 5. If it does, the showCongratulations function is called to redirect the user to the "congratulations.html" page.
 
+- Updating Score Display:
 
+The updateScore function retrieves the score element from the HTML document and updates its content with the current score.
 
-![hero image and About us](/assets/images/indexhero.png)
+- Displaying Random Quote:
 
+The displayRandomQuote function selects a random quote from the quotes array and displays it on the screen. It includes a random quote and the corresponding character.
 
+- Setting Up Answer Listeners:
 
+The setupAnswerListeners function adds event listeners to the answer elements. When an answer is clicked, the checkAnswer function is called with the corresponding answer index.
 
+- Starting the Quiz:
 
+The startQuiz function is called initially to begin the quiz. It displays the first question, sets up the answer listeners, and displays a random quote.
 
-![Footer](/assets/images/indexfooter.png)
+- Showing Congratulations and Disappointment Pages:
 
-
-### **Gallery/Hall of Fame**
-
-This is an HTML code for a webpage about Sporting Portugal, a football club in Lisbon, Portugal. The webpage has a header with a logo and a navigation menu that includes links to the home page, a sign-up page, and a hall of fame gallery. The webpage also has a section with photos of Sporting Portugal players and athletes, as well as the club logo. Finally, there is a footer with the website name, a heading, and social media links. The webpage uses a custom CSS stylesheet to style its elements and includes the Font Awesome icon library for the social media icons.
-
-![Index Logo and nav bar](/assets/images/gallery.png)
-
-
-
-![footer](/assets/images/footer.png)
-
-### **Sign Up/Join us**
-
-This is an HTML code for a webpage that displays information about Sporting Portugal, a football club in Lisbon, Portugal.
-
-The webpage consists of a header, a form to join the team, and a footer. The header contains the name of the club, a logo, and a navigation bar with links to the home page, the hall of fame, and a signup page. The form allows users to input their first name, last name, email address, and a message. The footer contains the name of the website and links to the club's social media pages.All the inputs and text ares are required, the visitor will have to fill in all text areas.
-
-The webpage uses a CSS stylesheet to define the layout and style of the webpage, including the position and size of the elements, the fonts, colors, and background. It also uses Font Awesome, an external library that provides icons for the social media links.When the user hovers over the footer element, the "transform" property is applied, which moves the element upwards by 10 pixels using the "translateY" function. This creates a visually pleasing animation effect.
-
-
-![Index Logo and nav bar](/assets/images/signup.png)
-
-
-
-![footer](/assets/images/footer.png)
+The showCongratulations function redirects the user to the "congratulations.html" page when the total score reaches 5.
+The showDisappointment function redirects the user to the "end.html" page when the wrong answer count reaches 3.
 
 - - -
 
