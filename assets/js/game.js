@@ -82,6 +82,7 @@ function setupAnswerListeners() {
 
    }
   function checkAnswer(userAnswer) {
+    //means that we are accessing the first element of the questions array, cause currentPos is 0
     let currentQuestion = questions[currentPos];
     //this condition checks if the correct alternative is the same choosen by the user, if yes the answer is correct
     if (currentQuestion.correct === userAnswer) {
