@@ -1,18 +1,43 @@
 body{
-    background-color:rgb(155, 63, 63);
+    background-color:rgb(3 70 6);
+    font-family:roboto;
+    }
+    
+    h1 {
+        color: white;
+      text-align:left;
+      }
+      
+      #game-rules {
+        color: white;
+        font-size: 30px;
+        padding:1.5rem;
+        text-align:left;
+        
+        
+      }
+      
+      button {
+    font-size: 1.9rem;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #076b1cb0;
+    font-family: roboto;
+    border-radius: 9rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  h1 {
-      color: pink;
-    }
-    
-    #game-rules {
-      color: yellow;
-      font-size: 50px; /* Adjust the font size as needed */
-    }
-    
-    button{
-      color:#E91E63
-    }
   
+  button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+        background-color:black
+        
+      }
+    
   

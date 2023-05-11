@@ -62,10 +62,10 @@ Success and Failure Pages: The quiz incorporates separate pages for success (con
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Google Fonts:](https://fonts.google.com/) was used to import the font into the style.css file which are used on the pages of the project.
+-   [Google Fonts:](https://fonts.google.com/) 
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
-- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsiveness.
 - [W3Schools:](https://www.w3schools.com/) To learn , test and train.
 - - - 
 
