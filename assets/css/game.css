@@ -8,7 +8,7 @@
 
 #wrapper div, #wrapper ul {
     width: 50%;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 
@@ -17,28 +17,37 @@ ul {
 }
 
 #title {
-    font-size: 20px;
-    font-weight: bold;
-    background: white;
-    padding: 10px;
-    position: fixed;
-    top: 50px; /* Adjust the margin from the top as needed */
-    left: 50%;
-    transform: translateX(-50%);
+    
+    
+     font-size: 3.5rem;
+      color: #fff200db;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
   }
   
   
 
   .alternative {
+    font-size:1.9rem;
     list-style-type: none;
     margin-bottom: 4px;
     padding: 10px;
-    background: #ffffff;
-    margin-top: 20px; /* Adjust the margin from the title as needed */
+    background: #229929f2;
+    margin-top: 20px; 
     text-align: center;
+    border-radius: 9rem;
   }
 
 .alternative:hover {
     cursor: pointer;
     opacity: 0.8;
 }
+
+  
+  
