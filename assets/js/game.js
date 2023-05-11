@@ -88,7 +88,7 @@ function setupAnswerListeners() {
     if (currentQuestion.correct === userAnswer) {
       //this display the message in the console
       console.log('Correct answer');
-      //this adds 1 to the var total score ++=+1
+      //this adds 1 to the var total score after a correct answer ++=+1
       totalScore++;
       //if the alternative is wrong this block will be executed
     } else {
@@ -103,6 +103,7 @@ function setupAnswerListeners() {
         return; // Stop further execution to prevent the next question from being displayed after showing the disappointment page
       }
     }
+    //these lines of code work together to update the score display, move to the next question, display the new question and alternatives, show a random quote, and check if the total score reaches 5 for any special actions
     updateScore();
     nextQuestion();
     displayQuestion(questions[currentPos]);
@@ -113,13 +114,15 @@ function setupAnswerListeners() {
   
   // Function to Move to the Next Question
   function nextQuestion() {
+    //this will move 1 question further from the current position
     currentPos++;
+    //this condition returns to initial question after reach the full lenght of questions, all questions answered
     if (currentPos === questions.length) {
       currentPos = 0;
     }
   }
   
-  // Function to Check if the Total Score Reaches 5
+  // Function to Check if the Total Score Reaches 5 and activates the show congrats function
   function checkTotalScore() {
     if (totalScore === 5) {
       showCongratulations();
@@ -127,8 +130,10 @@ function setupAnswerListeners() {
   }
   
   // Function to Update the Score Display 
+  //this function stores the element id score in a variable call scoreDiv
   function updateScore() {
     let scoreDiv = document.getElementById('score');
+    //this line gives the var scoreDiv the text content bellow indicated
     scoreDiv.textContent = 'Your score is: ' + totalScore;
   }
  // Function to Display a Random Quote
