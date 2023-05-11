@@ -155,7 +155,8 @@ LIGHTHOUSE TESTING
   * Lighthouse 
 ![Lighthouse Page](/assets/images/lhcheck.png)
 
-
+* Javascript
+![JavaScript Page](/assets/images/javas.png)
 - - -
 
 ### Color Scheme 
