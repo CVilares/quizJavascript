@@ -138,8 +138,13 @@ function setupAnswerListeners() {
   }
  // Function to Display a Random Quote
   function displayRandomQuote() {
+    
+    //mathrandom generates a number betw 0 and 1 multiplying it by quotes lenght that is 6 
+    //the function mathfloor rounds down the decimal to the near whole number
     let randomSelection = Math.floor(Math.random() * quotes.length);
+    //with this line basically we pick a random quote from the array quotes
     document.getElementById('quote').textContent = quotes[randomSelection].quote;
+    //and with this line we pick the character that said that quote
     document.getElementById('author').textContent = quotes[randomSelection].character;
   }  
   

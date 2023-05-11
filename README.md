@@ -1,4 +1,4 @@
-# quizJavascript
+# Sporting Portugal Quiz
 
 Welcome to the Sporting Clube de Portugal Quiz! This quiz will test your knowledge about one of the most beloved sports clubs in Portugal. Get ready to dive into the rich history, achievements, and iconic moments of Sporting Clube de Portugal.
 Are you a die-hard fan who knows everything about the club, or are you just starting to explore the world of Sporting Portugal? No matter your level of expertise, this quiz is designed to challenge and entertain you.
@@ -13,9 +13,9 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 - - -
 
 # Contents
-* [Technologies Used](#technologies-used)
 * [User Experience](#user-experience-ux)
-* [Main functionalities of the quiz](#main-functionalities-of-the-quiz)
+* [Technologies Used](#technologies-used)
+* [Features](#Features)
 * [Potential Implementations](#potential-implementations) 
 * [Browser Compability](#Browser-Compatibility)  
 * [Validator Testing](#validator-testing)
@@ -27,45 +27,19 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 * [Credits](#credits)
 
 - - - 
-##  Technologies Used
+### User Experience UX
 
-
--   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-
-
--   [Google Fonts:](https://fonts.google.com/) was used to import the font into the style.css file which are used on the pages of the project.
--   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
--   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
--   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
-- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
-- [W3Schools:](https://www.w3schools.com/) To learn , test and train.
-
-- - - 
- ### User Experience UX
-
-### First Time Visitor Goals
-
-
-- The goal for first-time visitors is to have fun and enjoy the overall quiz experience.
+- The goal for visitors is to have fun and enjoy the overall quiz experience.
 - Test knowledge and learn.
 - Experience feedback and results: First-time visitors want to receive immediate feedback on their answers. Whether they answer correctly or incorrectly, they expect to see feedback that informs them about their performance. They may also look forward to seeing their final score and any additional insights or comments provided at the end of the quiz.
 - Understand the Quiz Concept: As a first-time visitor to the quiz, the goal is to understand the concept and purpose of the quiz. Visitors should quickly grasp that it is a trivia-style game where they will be tested on their knowledge about a specific topic or theme.
-
- ### Returning Visitor Goals
-
 - As a fan of Sporting Portugal, I want to play the quiz to test my knowledge about the club, its players, and its history.
-
 - As a fan of Sporting Portugal, I want to know the author or speaker of each random quote displayed in the quiz, to increase my knowledge about the club and its iconic figures.
-
 - As a new player, I want to understand the rules of the Sporting Portugal quiz, so I can familiarize myself with how the game works and participate confidently.
-
 - As a player, I want to receive immediate feedback on whether my answer is correct or incorrect, to validate my knowledge and learn from any mistakes.
 
 
-### what we offer
+### Interactive Quiz Experience
 
 Navigation: The user can navigate through the quiz using the provided options and buttons. They can progress to the next question, submit their answers, and receive feedback on their performance.
 
@@ -82,9 +56,25 @@ Random Quotes: The inclusion of random quotes adds an extra element of interest 
 Success and Failure Pages: The quiz incorporates separate pages for success (congratulations) and failure (disappointment) scenarios. If the user achieves a high score, they are redirected to the success page, acknowledging their achievement. Conversely, if the user fails to answer correctly within the given attempts, they are redirected to the failure page, providing closure to their quiz experience.
 
 - - - 
+ ##  Technologies Used
 
 
-### Main functionalities of the quiz
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+
+
+-   [Google Fonts:](https://fonts.google.com/) was used to import the font into the style.css file which are used on the pages of the project.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+- [W3Schools:](https://www.w3schools.com/) To learn , test and train.
+- - - 
+
+
+### Features
 
 - Displaying Questions:
 
@@ -153,14 +143,10 @@ The showDisappointment function redirects the user to the "end.html" page when t
 
 ### Validator Testing
 HTML
-No errors were returned when passing through the official W3C validator
+All HTML tested separeted,no errors were returned when passing through the official W3C validator.
 
-  * Index Page
-![Index Page HTML](/assets/images/indexcheck.png)
-  * Join Us Page
-![Joinus Page HTML](/assets/images/signupcheck.png)
-  * Gallery Page
-![Gallery Page HTML](/assets/images/gallerychecker.png)
+![HTML Page](/assets/images/htlmvalidation.png)
+  
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
@@ -176,11 +162,8 @@ LIGHTHOUSE TESTING
 
 - - -
 
-### Solved Bugs
+### Color Scheme
 
-- The font-size were changed from px to rem for more responsiveness.
-- Some Div elements were deleted after W3C validator check, no needed.
-- ; missing on css code and corrected after css validator check.
 
 - - -
 ### Deployment
@@ -211,10 +194,7 @@ The responsiveness was also tested successfully on :
 - Mobile
   320x480px scaled down to scale(0.219)
 
-  ![Hall of fame](/assets/images/fameresponsive.png)
-  ![Home](assets/images/homeresponsive.png)
-  ![Join Us](/assets/images/jresponsive.png)
-
+  
 - - -
 ### Other tests
 
