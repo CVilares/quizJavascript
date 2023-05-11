@@ -1,5 +1,5 @@
 # quizJavascript
-# Sporting portugal
+
 
 This website was created for the love of Sporting Portugal, a sports club in portugal. With this page we intend to create a daily meeting point for the fans of this club and as a future goal to be a space where you can find daily news,pre, mid and end seasons analyzes,players analyzes with invited guests, a space where our visitors can check the list of trophies in different modalities and a forum to share opinions. So far we offer an updated list of the next games, all official social channels, a hall of fame, that will be our future virtual museum and a "join us" segment, where you can join our team building a free, non profit and passionate source of information about our sports club. 
 
@@ -122,35 +122,22 @@ The webpage uses a CSS stylesheet to define the layout and style of the webpage,
 
 - - -
 
-### Future Implementations
+### Potential Implementations
 
 
 
-- Option to choose the language of the website - 
-From Portugal to the world
+-  Timer: Implement a timer to add a time constraint for answering each question. This adds an element of urgency and can make the quiz more challenging.
 
-- Team logo on the top corner - 
-To look more appealing
 
-- Backhand- 
-To accept pictures from the fans to put in our Hall off fame
+- Progress Bar: Add a visual progress bar to indicate how far the user is in the quiz. It helps provide a sense of completion and motivates users to continue.
 
-- Forum - 
-To discuss ideas, the results od the team, share opinions.
+- High Scores: Implement a high score feature where users can save their scores and compare them with other players. This can encourage competition and replayability.
 
-- Newsletter Sign Up - 
-To keep users up to date.
+-  Score Multipliers: Assign score multipliers for consecutive correct answers. For example, if the user answers two questions correctly in a row, their score for the third question could be doubled.
 
-- Virtual Museum - 
-For easy free tour about history of the club.
+- Hint System: Provide users with the option to request hints for difficult questions. You can display additional information or eliminate one or more incorrect answer choices.
 
-- Navigation bar menu with daily news,analyses content,streams
-
-- Fun fact section -
-Fun facts usefull to convince people to became curious about the club for example
-
-- "What you want to see section" -
-To have feedback from fans regarding the site content
+- Share Results: Enable users to share their quiz results on social media platforms or via email. This can encourage others to take the quiz and increase its reach.
 
 - - -
 
