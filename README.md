@@ -137,11 +137,11 @@ The showDisappointment function redirects the user to the "end.html" page when t
 
 - - -
 
-### Browser Compatibility
+### Browser Compatibility in progress ip
 
 - This pages were successfully tested on Safari ,Firefox and Google Chrome browsers.
 
-### Validator Testing
+### Validator Testing ip
 HTML
 All HTML tested separeted,no errors were returned when passing through the official W3C validator.
 
@@ -162,11 +162,11 @@ LIGHTHOUSE TESTING
 
 - - -
 
-### Color Scheme
+### Color Scheme ip
 
 
 - - -
-### Deployment
+### Deployment ip
 
 1. Login or Sign Up to GitHub.
 2. Go to project repository.
@@ -179,7 +179,7 @@ LIGHTHOUSE TESTING
 
 - - -
 
-### Responsiveness
+### Responsiveness in progress
 
 Chrome developer tool have been used to check successfully the responsivness in multiple kind of devices.
 
@@ -196,7 +196,7 @@ The responsiveness was also tested successfully on :
 
   
 - - -
-### Other tests
+### Other tests ip
 
 * Background and foreground colors have a sufficient contrast ratio.
 * All pages and images are loaded without issues.
@@ -214,7 +214,7 @@ The responsiveness was also tested successfully on :
 * The hero image have a zoom effect of 5 sec.
 
 - - -
-### Fork and Clone
+### Fork and Clone ip
 **Fork**
 1. Login or Sign Up to GitHub.
 2. Open the project [repository](https://github.com/CVilares/Sporting-Portugal).
@@ -229,7 +229,7 @@ The responsiveness was also tested successfully on :
 
 - - -
 
-### Credits
+### Credits ip
 
 A special thank you to my mentors, family,friends.
 - - -
