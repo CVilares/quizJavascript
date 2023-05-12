@@ -8,7 +8,7 @@ You will be presented with a series of questions covering various aspects of Spo
 
 ## Demo
 
-Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
+Welcome to [Sporting Quiz](https://cvilares.github.io/quizJavascript/)
 
 - - -
 
@@ -116,7 +116,8 @@ The startQuiz function is called initially to begin the quiz. It displays the fi
 
 The showCongratulations function redirects the user to the "congratulations.html" page when the total score reaches 5.
 The showDisappointment function redirects the user to the "end.html" page when the wrong answer count reaches 3.
-
+![Reactions](/assets/images/random.png)
+![Reactions](/assets/images/random.png)
 - - -
 
 ### Potential Implementations
