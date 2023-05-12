@@ -3,7 +3,7 @@
 Welcome to the Sporting Clube de Portugal Quiz! This quiz will test your knowledge about one of the most beloved sports clubs in Portugal. Get ready to dive into the rich history, achievements, and iconic moments of Sporting Clube de Portugal.
 Are you a die-hard fan who knows everything about the club, or are you just starting to explore the world of Sporting Portugal? No matter your level of expertise, this quiz is designed to challenge and entertain you.
 You will be presented with a series of questions covering various aspects of Sporting Clube de Portugal, including its presidents, historic achievements, iconic players, and fierce rivalries. Each question will have multiple-choice options, and it's up to you to select the correct answer.
-![responsive image](/assets/images/responsive.png)
+![responsive image](/assets/images/res.png)
 
 
 ## Demo
