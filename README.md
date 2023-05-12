@@ -202,7 +202,6 @@ The responsiveness was also tested successfully on :
 * Background and foreground colors have a sufficient contrast ratio.
 * All pages and images are loaded without issues.
 * All text is visable and appropriately positioned, text sizing and font are legible.
-* The external links open in a new tab and that the address is correct.
 * When you hover over  buttons with your mouse, the color or opacity change to give a visual indication to the user.
 * Consistent Design: By specifying a specific font family, you can ensure that the text content on your website or application appears consistently across different devices and platforms.
 
