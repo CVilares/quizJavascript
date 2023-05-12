@@ -102,6 +102,8 @@ The updateScore function retrieves the score element from the HTML document and 
 
 The displayRandomQuote function selects a random quote from the quotes array and displays it on the screen. It includes a random quote and the corresponding character.
 
+![Random Quote](/assets/images/random.png)
+
 - Setting Up Answer Listeners:
 
 The setupAnswerListeners function adds event listeners to the answer elements. When an answer is clicked, the checkAnswer function is called with the corresponding answer index.
