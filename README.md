@@ -19,7 +19,8 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 * [Potential Implementations](#potential-implementations) 
 * [Browser Compability](#browser-compatibility)  
 * [Validator Testing](#validator-testing)
-* [Color Scheme ](#color-scheme )
+* [Color Scheme ](#color-scheme)
+* [Typography](#typography)
 * [Deployment](#deployment)  
 * [Responsiveness](#responsiveness)
 * [Other tests](#Other-tests)
@@ -161,8 +162,12 @@ Javascript
 ### Color Scheme 
 
 - The color scheme chosen for this quiz is inspired by the football club's main colors, predominantly green and white, with hints of yellow. These colors reflect the club's identity and serve as the main theme throughout the quiz. The use of green symbolizes the club's vitality, growth, and connection with nature, while white represents purity, clarity, and the club's commitment to fair play. The subtle touches of yellow add a vibrant and energetic element, complementing the overall design and enhancing the visual appeal. This color combination creates a visually pleasing and cohesive experience, immersing users in the spirit of the football club as they engage with the quiz.
+
+## Typography
+The font roboto was used for the entire quiz.
+
 - - -
-### Deployment ip
+### Deployment 
 
 1. Login or Sign Up to GitHub.
 2. Go to project repository.
@@ -175,7 +180,7 @@ Javascript
 
 - - -
 
-### Responsiveness in progress
+### Responsiveness 
 
 Chrome developer tool have been used to check successfully the responsivness in multiple kind of devices.
 
@@ -203,15 +208,15 @@ The responsiveness was also tested successfully on :
 
 
 - - -
-### Fork and Clone ip
+### Fork and Clone 
 **Fork**
 1. Login or Sign Up to GitHub.
-2. Open the project [repository](https://github.com/CVilares/Sporting-Portugal).
+2. Open the project [repository](https://github.com/CVilares/quizJavascript).
 3. Click the Fork button in the top right corner.
 
 **Clone**
 1. Login or Sign Up to GitHub.
-2. Open the project [repository](https://github.com/CVilares/Sporting-Portugal).
+2. Open the project [repository](https://github.com/CVilares/quizJavascript).
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in the code editor of your choice and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
