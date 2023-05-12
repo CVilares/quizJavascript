@@ -15,15 +15,15 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 # Contents
 * [User Experience](#user-experience-ux)
 * [Technologies Used](#technologies-used)
-* [Features](#Features)
+* [Features](#features)
 * [Potential Implementations](#potential-implementations) 
-* [Browser Compability](#Browser-Compatibility)  
+* [Browser Compability](#browser-compatibility)  
 * [Validator Testing](#validator-testing)
-* [Solved Bugs](#solved-bugs)
+* [Color Scheme ](#color-scheme )
 * [Deployment](#deployment)  
 * [Responsiveness](#responsiveness)
 * [Other tests](#Other-tests)
-* [Fork and Clone](#Fork-and-clone)  
+* [Fork and Clone](#fork-and-clone)  
 * [Credits](#credits)
 
 - - - 
@@ -31,7 +31,7 @@ Welcome to [Sporting Portugal](https://cvilares.github.io/Sporting-Portugal/)
 
 - The goal for visitors is to have fun and enjoy the overall quiz experience.
 - Test knowledge and learn.
-- Experience feedback and results: First-time visitors want to receive immediate feedback on their answers. Whether they answer correctly or incorrectly, they expect to see feedback that informs them about their performance. They may also look forward to seeing their final score and any additional insights or comments provided at the end of the quiz.
+- Experience feedback and results:  visitors want to receive immediate feedback on their answers. Whether they answer correctly or incorrectly, they expect to see feedback that informs them about their performance. They may also look forward to seeing their final score and any additional insights or comments provided at the end of the quiz.
 - Understand the Quiz Concept: As a first-time visitor to the quiz, the goal is to understand the concept and purpose of the quiz. Visitors should quickly grasp that it is a trivia-style game where they will be tested on their knowledge about a specific topic or theme.
 - As a fan of Sporting Portugal, I want to play the quiz to test my knowledge about the club, its players, and its history.
 - As a fan of Sporting Portugal, I want to know the author or speaker of each random quote displayed in the quiz, to increase my knowledge about the club and its iconic figures.
@@ -133,11 +133,11 @@ The showDisappointment function redirects the user to the "end.html" page when t
 
 - - -
 
-### Browser Compatibility in progress ip
+### Browser Compatibility in progress 
 
 - This pages were successfully tested on Safari ,Firefox and Google Chrome browsers.
 
-### Validator Testing ip
+### Validator Testing 
 HTML
 
 - All HTML tested separeted,no errors were returned when passing through the official W3C validator.
@@ -149,12 +149,7 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 
   * CSS Page
-![CSS Page](/assets/images/css.png)
-
-LIGHTHOUSE TESTING
-
-  * Lighthouse 
-![Lighthouse Page](/assets/images/lhcheck.png)
+![CSS Page](/assets/images/cssvalid.png)
 
 Javascript
 - No errors were returned when passing through the JSHint validator.
@@ -163,7 +158,7 @@ Javascript
 
 ### Color Scheme 
 
-- The color schemes used were mainly green and white with some yellow splash, those colors are the main color of the footbal club, the main theme of this quiz.
+- The color scheme chosen for this quiz is inspired by the football club's main colors, predominantly green and white, with hints of yellow. These colors reflect the club's identity and serve as the main theme throughout the quiz. The use of green symbolizes the club's vitality, growth, and connection with nature, while white represents purity, clarity, and the club's commitment to fair play. The subtle touches of yellow add a vibrant and energetic element, complementing the overall design and enhancing the visual appeal. This color combination creates a visually pleasing and cohesive experience, immersing users in the spirit of the football club as they engage with the quiz.
 - - -
 ### Deployment ip
 
@@ -195,22 +190,15 @@ The responsiveness was also tested successfully on :
 
   
 - - -
-### Other tests ip
+### Other tests 
 
 * Background and foreground colors have a sufficient contrast ratio.
 * All pages and images are loaded without issues.
 * All text is visable and appropriately positioned, text sizing and font are legible.
-* All links in the webpages are working correctly and there are no broken links.
-* The navbar links work correctly and the user is directed to the correct page each time.
-* All the menu is underlined to make a visual effect for the visitors when they choose a page.
-* The "sign me up" button is correctly linked to the join us page.
-* Footer logos move up when hovering over.
-* Social Media links are visible, readable and clickable.
 * The external links open in a new tab and that the address is correct.
-* The send button on the join us page change color when we pass the mouse over.
-* The form is working as expected. If a user does not fill a mandatory field the form is not submitted.
-* The email input field must contain @ symbol to submit the form in the contact section.
-* The hero image have a zoom effect of 5 sec.
+* When you hover over  buttons with your mouse, the color or opacity change to give a visual indication to the user.
+* Consistent Design: By specifying a specific font family, you can ensure that the text content on your website or application appears consistently across different devices and platforms.
+
 
 - - -
 ### Fork and Clone ip
@@ -228,7 +216,9 @@ The responsiveness was also tested successfully on :
 
 - - -
 
-### Credits ip
+### Credits 
 
+This project was inspired on https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
 A special thank you to my mentors, family,friends.
+
 - - -
