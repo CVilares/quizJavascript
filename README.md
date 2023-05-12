@@ -212,11 +212,12 @@ The responsiveness was also tested successfully on :
 - - -
 ### Other tests 
 
+
 * Background and foreground colors have a sufficient contrast ratio.
 * All pages and images are loaded without issues.
 * All text is visable and appropriately positioned, text sizing and font are legible.
 * When you hover over  buttons with your mouse, the color or opacity change to give a visual indication to the user.
-* HHover on touch-sensitive devices, such as mobile devices, may not work in the same way as on devices with a mouse.
+* Hover on touch-sensitive devices, such as mobile devices, may not work in the same way as on devices with a mouse.
 * Consistent Design: By specifying a specific font family, you can ensure that the text content on your website or application appears consistently across different devices and platforms.
 
 

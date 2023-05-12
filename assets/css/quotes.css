@@ -31,69 +31,75 @@ body {
       
   }
 
-  body {
-    background-image: url('https://bolanarede.pt/wp-content/uploads/2023/04/Sporting-CP-jogadores-1-1068x712.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  font-size: 5%;
-  }
-.text-box {
-    background-color: #076b1cb0;
-  padding: 1.5rem;
-  border-radius: 9rem;
-  text-align: center;
-  margin-top: 9rem; 
-  margin-bottom: 3rem; 
-  width: 60%; 
-  margin-left: auto;
-  margin-right: auto;
-  opacity:initial;
-}
-
-#quote {
-    margin:10px;
-    font-size: 1.5rem;
-    color: white;
-    margin-bottom: 1.5rem;
-  }
-  
-  #author {
-  font-size: 2.6rem;
-  color: yellow;
-  margin: 10px;
-}
 
 @media (max-width: 1600px) {
-  #author {
-    font-size: 2.2rem;
-    margin: 15px;
+    #author {
+      font-size: 2.2rem;
+      margin: 15px;
+    }
+    
+    #wrapper {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
-}
-
-@media (max-width: 992px) {
-  #author {
-    font-size: 2rem;
-    margin: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  #author {
-    font-size: 1.8rem;
-    margin: 5px;
-  }
-}
-
-@media (max-width: 576px) {
-  #author {
-    font-size: 1.6rem;
-    margin: 2px;
-  }
-}
   
-
-
-
-
-
-
+  @media (max-width: 992px) {
+    #author {
+      font-size: 2rem;
+      margin: 10px;
+    }
+    
+    #wrapper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #author {
+      font-size: 1.8rem;
+      margin: 5px;
+    }
+    
+    #wrapper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #author {
+      font-size: 1.6rem;
+      margin: 2px;
+    }
+    
+    #wrapper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #wrapper {
+      width: 80%;
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    #title {
+      font-size: 1.4rem;
+    }
+    
+    .alternative {
+      font-size: 0.8rem;
+      margin-top: 8px;
+      padding: 6px;
+    }
+    
+    .points {
+      font-size: 1.2rem;
+    }
+  }
+  
