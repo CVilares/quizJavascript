@@ -58,15 +58,17 @@ Success and Failure Pages: The quiz incorporates separate pages for success (con
 - - - 
  ##  Technologies Used
 
-
--   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Google Fonts:](https://fonts.google.com/) 
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsiveness.
 - [W3Schools:](https://www.w3schools.com/) To learn , test and train.
+-   [Code Institute](https://codeinstitute.net/global/) To learn and train
+-   [Stack Overflow](https://stackoverflow.com/) To learn and train
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
 - - - 
 
 
@@ -218,7 +220,8 @@ The responsiveness was also tested successfully on :
 
 ### Credits 
 
-This project was inspired on https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
-A special thank you to my mentors, family,friends.
+- This project was inspired on https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+- A special thank you to my mentors, family,friends.
+- Slack comunity
 
 - - -

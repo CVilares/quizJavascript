@@ -12,11 +12,9 @@
     padding: 0;
     color: #333;
   }
-  
-  h1,
-  h2,
-  h3,
-  h4 {
+  /*quiz tilte */
+  h1
+    {
     margin-bottom: 1rem;
   }
   
@@ -80,7 +78,7 @@
   .hidden {
     display: none;
   }
-  
+  /*buttons */
   .btn {
     
         font-size: 1.9rem;

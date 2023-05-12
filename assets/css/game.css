@@ -1,3 +1,4 @@
+/*quiz answers  */
 #wrapper {
     margin-top: 40px;
     width: 100%;
@@ -15,7 +16,7 @@
 ul {
     padding: 0px;
 }
-
+/* quiz questions */
 #title {
     
      margin-top:1.5rem;
@@ -32,7 +33,7 @@ ul {
   }
   
   
-
+/*quiz answers  */
   .alternative {
     font-size:1.9rem;
     list-style-type: none;
@@ -52,7 +53,7 @@ ul {
     opacity: 0.8;
     background-color:black;
 }
-
+/*score  */
 .points {
     color: white;
     margin-left: auto;
