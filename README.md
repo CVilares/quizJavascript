@@ -3,7 +3,7 @@
 Welcome to the Sporting Clube de Portugal Quiz! This quiz will test your knowledge about one of the most beloved sports clubs in Portugal. Get ready to dive into the rich history, achievements, and iconic moments of Sporting Clube de Portugal.
 Are you a die-hard fan who knows everything about the club, or are you just starting to explore the world of Sporting Portugal? No matter your level of expertise, this quiz is designed to challenge and entertain you.
 You will be presented with a series of questions covering various aspects of Sporting Clube de Portugal, including its presidents, historic achievements, iconic players, and fierce rivalries. Each question will have multiple-choice options, and it's up to you to select the correct answer.
-![responsive image](/assets/images/res.png)
+![responsive image](/assets/images/rsp.png)
 
 
 ## Demo
@@ -98,6 +98,9 @@ The checkTotalScore function checks if the user's total score reaches 5. If it d
 
 The updateScore function retrieves the score element from the HTML document and updates its content with the current score.
 
+![Reactions](/assets/images/sum.png)
+![Reactions](/assets/images/sdois.png)
+
 - Displaying Random Quote:
 
 The displayRandomQuote function selects a random quote from the quotes array and displays it on the screen. It includes a random quote and the corresponding character.
@@ -112,12 +115,19 @@ The setupAnswerListeners function adds event listeners to the answer elements. W
 
 The startQuiz function is called initially to begin the quiz. It displays the first question, sets up the answer listeners, and displays a random quote.
 
-- Showing Congratulations and Disappointment Pages:
+- Showing Congratulations and Disappointment Pages with a Try Again button that leads you to the start main page.
 
 The showCongratulations function redirects the user to the "congratulations.html" page when the total score reaches 5.
 The showDisappointment function redirects the user to the "end.html" page when the wrong answer count reaches 3.
-![Reactions](/assets/images/random.png)
-![Reactions](/assets/images/random.png)
+![Reactions](/assets/images/congs.png)
+![Reactions](/assets/images/end.png)
+
+
+
+- Rules button that leads you to the quiz rules and to start game button.
+![Reactions](/assets/images/rules.png)
+![Reactions](/assets/images/ruless.png)
+
 - - -
 
 ### Potential Implementations
