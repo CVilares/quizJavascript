@@ -33,6 +33,26 @@ let questions = [
     alternative: ['SL Benfica', 'FC Porto', 'SC Braga', 'Vitória de Guimarães'],
     correct: 0
   }
+  {
+    title: 'Who is the most capped player in the history of Sporting Clube de Portugal?',
+    alternative: ['Rui Patrício', 'Hilário da Conceição', 'Sa Pinto', 'Luís Figo'],
+    correct: 1
+    },
+    {
+    title: 'Which manager led Sporting Clube de Portugal to their last league title?',
+    alternative: ['Jorge Jesus', 'Paulo Bento', 'Ruben Amorim', 'Leonardo Jardim'],
+    correct: 2
+    },
+    {
+    title: 'Who is known as "Levezinho" and is considered one of the greatest forwards in Sporting Clube de Portugal history?',
+    alternative: ['Liedson', 'Bas Dost', 'Jardel', 'Fernando Peyroteo'],
+    correct: 0
+    },
+    {
+    title: 'Which player holds the record for the most goals scored in a single season for Sporting Clube de Portugal?',
+    alternative: ['Mário Jardel', 'Fernando Peyroteo', 'Hélder Postiga', 'Ricardo Sá Pinto'],
+    correct: 1
+    }
 ];
 // this are the variables starting in 0 because user has not answered any question
 
