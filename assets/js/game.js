@@ -32,7 +32,7 @@ let questions = [
     title: 'Which team is considered the main rival of Sporting Clube de Portugal?',
     alternative: ['SL Benfica', 'FC Porto', 'SC Braga', 'Vitória de Guimarães'],
     correct: 0
-  }
+  },
   {
     title: 'Who is the most capped player in the history of Sporting Clube de Portugal?',
     alternative: ['Rui Patrício', 'Hilário da Conceição', 'Sa Pinto', 'Luís Figo'],
