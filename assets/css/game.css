@@ -1,7 +1,11 @@
-body {
+html,body {
     background-image: url('https://blobsvc.wort.lu/picture/0f64cae670032222478fd1a29fedeffc/1600/600/crop/0/882/3072/2037/wortv3/ab6ab9a34ff43b1599ffe7b29ec9bb73e09b07b2');
     background-repeat: no-repeat;
     background-size: cover;
+   height: 100%;
+   margin: 0;
+  padding: 0;
+  overflow: hidden;
   }
 
 
